@@ -3,7 +3,7 @@
 .logo {
   height: 300px;
   width: 100%;
-  background: url("../images/VF-logo2.png") no-repeat center center/cover;
+  background: url("../images/VF-logo3.png") no-repeat center center/cover;
   position: relative;
 }
 
@@ -19,7 +19,7 @@
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 
@@ -28,7 +28,7 @@ h1 {
 header {
   background-color: #1a0001;
   padding: 0px 5px 5px;
-  position: fixed;
+  position: relative;
   z-index: 99;
   width: 100%;
   box-shadow: 0 1px 1px #363732;
@@ -67,6 +67,4 @@ navbar-toggler-icon {
   color: #ffead0;
 }
 
-
-/* ------ Carousel ------*/
 
