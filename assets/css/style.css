@@ -1,5 +1,15 @@
-.logo {
+
+
+  .logo {
     height: 200px;
-    width: 100%;
+    max-width: 100%;
     background: url("../images/VF-logo.png") no-repeat center center/cover;
+    position: relative;
+}
+
+.door {
+  height: 580px;
+  width: 100%;
+  background: url("../images/door.jpg") no-repeat center center/cover;
+  position: relative;
 }
