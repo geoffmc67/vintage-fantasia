@@ -1,17 +1,26 @@
-/* ----- Entrance image and Home page logo----- */
 
-  .logo {
-    height: 400px;
-    max-width: 100%;
-    background: url("../images/VF-logo2.png") no-repeat center center/cover;
-    position: relative;
+
+.logo {
+  height: 300px;
+  width: 100%;
+  background: url("../images/VF-logo2.png") no-repeat center center/cover;
+  position: relative;
 }
 
 .door {
-  height: 580px;
+  height: 600px;
   width: 100%;
   background: url("../images/door.jpg") no-repeat center center/cover;
   position: relative;
+}
+
+/* ------ General Styles ------*/
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 /* ---------- Nav Bar ---------- */
@@ -30,27 +39,34 @@ header {
 
 .navbar {
   margin-top: auto;
-  margin-left: 0px;
+  margin-left: 0;
   margin-bottom: 0;
   border: 0;
   width: 100%;
   background-color: #1a0001;
+  /* Over Ride Bootstrap Defaults */
   --bs-navbar-hover-color: #ff5301;
+  /* --bs-navbar-toggler-icon-color: #ff5301; */
   z-index: 1;  
 }
 
 .navbar .navbar-brand {
   font-weight:  bold;
   color: #ffead0;
+  display: flex;
+  flex-grow: 1;
 }
 
 .nav-link {
   font-weight: bold;
-  margin-left: 60px;
   color: #ffead0;
+  margin-left: 50px;
 }
 
 navbar-toggler-icon {
   color: #ffead0;
 }
+
+
+/* ------ Carousel ------*/
 
