@@ -1,4 +1,4 @@
-
+/* ----- Entrance image and Home page logo----- */
 
   .logo {
     height: 400px;
@@ -13,3 +13,44 @@
   background: url("../images/door.jpg") no-repeat center center/cover;
   position: relative;
 }
+
+/* ---------- Nav Bar ---------- */
+
+header {
+  background-color: #1a0001;
+  padding: 0px 5px 5px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 1px 1px #363732;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.navbar {
+  margin-top: auto;
+  margin-left: 0px;
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: #1a0001;
+  --bs-navbar-hover-color: #ff5301;
+  z-index: 1;  
+}
+
+.navbar .navbar-brand {
+  font-weight:  bold;
+  color: #ffead0;
+}
+
+.nav-link {
+  font-weight: bold;
+  margin-left: 60px;
+  color: #ffead0;
+}
+
+navbar-toggler-icon {
+  color: #ffead0;
+}
+
